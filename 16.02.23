@@ -1,0 +1,70 @@
+#include <iostream> 
+#include<vector>
+using namespace std;
+
+int main()
+//{
+//	vector <int> sk{ 1,2,3,1,2 };
+//
+//	if (sk[0] == 1) cout << "pirma vieta ir 1" << endl;
+//	if (sk[1] == 1) cout << "otraja vieta ir 1" << endl;
+//	if (sk[2] == 1) cout << "tresaja vieta ir 1" << endl;
+//	if (sk[3] == 1) cout << "ceturta vieta ir 1" << endl;
+//	if (sk[4] == 1) cout << "piekta vieta ir 1" << endl;
+//
+//	if (sk[0] == 4) cout << "pirma vieta ir 4" << endl;
+//	if (sk[1] == 4) cout << "otraja vieta ir 4" << endl;
+//	if (sk[2] == 4) cout << "tresaja vieta ir 4" << endl;
+//	if (sk[3] == 4) cout << "ceturta vieta ir 4" << endl;
+//	if (sk[4] == 4) cout << "piekta vieta ir 4" << endl;
+//}
+//{
+//	string atb,number;
+//	vector <string> country{ "USA", "UK","China","India","Canada", "Australia" };
+//	vector <string> code{ "+1", "+44","+86","+91","+1", "+61" };
+//	cin >> atb>>number;
+//	if (code[0] == atb) { cout<< country[0] << " " << atb << number << endl; }
+//	if (code[1] == atb) { cout << country[1] << " " << atb << number << endl; }
+//	if (code[2] == atb) { cout << country[2] << " " << atb << number << endl; }
+//	if (code[3] == atb) { cout << country[3] << " " << atb << number << endl; }
+//	if (code[4] == atb) { cout << country[4] << " " << atb << number  << endl; }
+//	cin >> number;
+//
+//}
+//{
+//	int atb;
+//	vector<int> atz{ 3,8,7,4 };
+//	vector<string> name{ "Anna","Antons","Vlads","Artemijs" };
+//	cin >> atb;
+//	if (atz[0] == atb) cout <<name[0] << endl;
+//	if (atz[1] == atb) cout << name[1] << endl;
+//	if (atz[2] == atb) cout << name[2] << endl;
+//	if (atz[3] == atb) cout << name[3] << endl;
+//	if (atb != atz[0] && atb != atz[1] && atb != atz[2] && atb != atz[3]) cout << "Nepareiza atzime!";
+//
+//}
+//{
+//	vector<int> sk{ 2, 3, 5, 7 };
+//	cout << sk[0] * sk[0] << endl;
+//	cout << sk[1] * sk[1] << endl;
+//	cout << sk[2] * sk[2] << endl;
+//	cout << sk[3] * sk[3] << endl;
+//}
+{
+
+	vector <string> svetki{ "Skolas diena", "Lacplesadiena","Valsts proklamesanas diena"};
+	vector <string> datums{ "01.09","11.11","18.11"};
+	string Yuy;
+		cin >> Yuy;
+		if (Yuy == "Yes") { cout << svetki[0] << endl << datums[0] << svetki[1] << endl << datums[1] << endl << svetki[2] << endl << datums[2] << endl << svetki[3] << endl << datums[3] << endl; };
+
+
+	
+	}
+
+
+
+
+
+
+
